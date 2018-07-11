@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+ul {
+  list-style: none; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.flex-container {
+  display: flex; }
+
+.one-third {
+  width: 30%;
+  margin-right: 3.333%; }
+
+/*-----------------------------*/
+/*------------ NAV ------------*/
+/*-----------------------------*/
+#nav-bar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff; }
+  #nav-bar .flex-container {
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px; }
+
+.main-nav li {
+  margin-right: 25px; }
+  .main-nav li:last-child {
+    margin-right: 0; }
+
+.main-nav .nav-link {
+  text-transform: uppercase;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #666;
+  text-decoration: none; }
+
+/*-----------------------------*/
+/*----------- HERO ------------*/
+/*-----------------------------*/
+#hero {
+  background-image: url(../img/welcome-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 1060px;
+  min-height: 700px;
+  background-color: #222838; }
+  #hero .flex-container {
+    justify-content: space-between;
+    padding: 0px 20px; }
+
+.hero--main-content {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .hero--main-content h1 {
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 80px; }
+    @media (max-width: 760px) {
+      .hero--main-content h1 {
+        font-size: 32px; } }
+    .hero--main-content h1 .highlight {
+      color: #F2504D;
+      font-weight: 400; }
+  .hero--main-content .btn.btn-hero {
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 60px; }
+    .hero--main-content .btn.btn-hero.btn-hero-main {
+      background-color: #F2504D;
+      background-image: -webkit-linear-gradient(63deg, #fa326f 0%, #f6425e 53%, #f2514c 100%, #f2504d 100%); }
+
+.hero--main-img {
+  height: 850px;
+  display: flex;
+  align-items: center; }
+  .hero--main-img img {
+    height: 500px; }
+
+/*------------------------------*/
+/*----------- ABOUT ------------*/
+/*------------------------------*/
+.about-section {
+  width: 100%;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  color: #fff; }
+  .about-section .one-third {
+    text-align: center; }
+    .about-section .one-third .icon-tools {
+      background-image: url(../img/about-ico-bg.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      display: inline-block;
+      height: 97px;
+      width: 97px;
+      margin-bottom: 30px;
+      line-height: 97px; }
+      .about-section .one-third .icon-tools .fas, .about-section .one-third .icon-tools .fa {
+        line-height: 97px;
+        color: #F2504D;
+        font-size: 34px; }
+    .about-section .one-third h2 {
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .about-section .one-third p {
+      font-weight: 300;
+      font-size: 14px; }
+
+#video-demo {
+  padding-top: 80px;
+  text-align: center; }
+  #video-demo h2 {
+    background-image: linear-gradient(-106deg, #fa326f, #f2514c, #f2504d);
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 60px; }
+
+#video {
+  width: 70%;
+  height: 400px;
+  display: inline-block; }
+
+#footer {
+  background-color: #222838;
+  margin-top: 100px; }
+
+#email {
+  width: 100%;
+  height: 70px;
+  border-radius: 35px;
+  background-color: rgba(244, 244, 244, 0.98);
+  border: solid 1px #c1c1c1;
+  font-size: inherit;
+  padding: 0 30px;
+  color: #000;
+  float: left; }
+
+.form-container {
+  width: 40%;
+  margin: 0px auto; }
+
+#form {
+  padding: 100px 0; }
+
+#submit {
+  width: 160px;
+  height: 54px;
+  border-radius: 27px;
+  border: 0;
+  margin-left: -170px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: capitalize;
+  float: left;
+  margin-top: 8px;
+  background-color: #f25552; }

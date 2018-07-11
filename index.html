@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="container flex-container">
+                <div class="logo">
+                    <img src="img/sticky-logo.png" alt="" id="header-img">
+                </div>
+                <ul class="main-nav flex-container">
+                    <li><a href="#header" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#video" class="nav-link">Demo</a></li>
+                    <li><a href="#footer" class="nav-link">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container flex-container">
+            <div class="hero--main-content">
+                <h1>
+                    Get Your Free <br>
+                    Download Of <br>
+                    <span class="highlight">Restaurant</span> App
+                </h1>
+
+                <div class="hero--main-content-btns">
+                    <button class="btn btn-hero"><img src="img/google-play-logo.png" alt=""></button>
+                    <button class="btn btn-hero btn-hero-main"><img src="img/app-store-logo.png" alt=""></button>    
+                </div>
+            </div>
+            
+            <div class="hero--main-img">
+                <figure>
+                    <img src="img/app-screen-short.png" alt="">
+                </figure>
+            </div>
+        </div>
+
+        <div class="about-section" id="about">
+            <div class="container flex-container">
+                <div class="one-third">
+                    <span class="icon-tools">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    <h2>Powefull Feature</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                </div>
+                <div class="one-third">
+                    <span class="icon-tools">
+                        <i class="fa fa-bell"></i>
+                    </span>
+                    <h2>Awesome Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                </div>
+                <div class="one-third">
+                    <span class="icon-tools">
+                        <i class="fa fa-gem"></i>
+                    </span>
+                    <h2>Unlimited Supports</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="video-demo">
+            <h2>Video Demo</h2>
+            <div class="container">
+                <iframe id="video" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="footer">
+        <div class="form-container">
+                <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                    <input type="email" id="email" name="email" placeholder="Enter email adress...">
+                    <input type="submit" class="btn btn-primary" id="submit" value="Submit">
+                </form>
+        </div>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
